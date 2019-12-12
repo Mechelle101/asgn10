@@ -20,14 +20,7 @@ if($_POST['submit']) {
 }
 
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Convert Irish Length</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+<?php include_once 'includes/header.php'; ?>
 
     <div id="main-content">
 
@@ -72,5 +65,6 @@ if($_POST['submit']) {
       <a href="index.php">Return to menu</a>
       
     </div>
+    <?php include_once 'includes/footer.php'; ?> 
   </body>
 </html>
